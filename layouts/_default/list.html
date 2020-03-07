@@ -8,7 +8,7 @@
 <body>
   <div class="container">
     {{ partial "header.html" . }}
-    <div class="content">
+    <main class="content">
       <div class="posts">
         {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }} {{ range $paginator.Pages }}
         <div class="post">
@@ -35,10 +35,9 @@
         {{ end }}
       </div>
       {{ partial "pagination.html" . }}
-    </div>
+    </main>
     {{ partial "footer.html" . }}
   </div>
-  <script src="{{ .Site.BaseURL }}js/slim.js"></script>
   {{ with .Site.Params.AnalyticsID }}{{ partial "analytics.html" . }}{{ end }}
 
 </body>

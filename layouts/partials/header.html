@@ -1,7 +1,7 @@
-<div class="header">
+<header class="header">
   <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
   <p class="site-tagline">{{ .Site.Params.Subtitle }}</p>
-  <div class="nav">
+  <nav class="nav">
     <a class="nav-btn" href="#">
       <span class="ci ci-burger"></span>
     </a>
@@ -15,5 +15,5 @@
       <li><a href="https://twitter.com/{{.}}">Twitter</a></li>{{ end }} {{ with .Site.Params.LinkedInID }}
       <li><a href="http://linkedin.com/in/{{.}}">LinkedIn</a></li>{{ end }}
     </ul>
-  </div>
-</div>
+  </nav>
+</header>

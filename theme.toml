@@ -1,12 +1,11 @@
-name = "Slim"
+name = "Reading List"
 license = "MIT"
-licenselink = "https://github.com/zhe/hugo-theme-slim/blob/master/LICENSE.md"
-description = "A slim minimal theme for Hugo."
-homepage = "https://github.com/zhe/hugo-theme-slim"
+licenselink = "https://github.com/michaelvigor/hugo-theme-reading-list/blob/master/LICENSE.md"
+description = "Minimal theme for self hosted Pocket. Fork of Slim theme (https://github.com/zhe/hugo-theme-slim)"
+homepage = "https://github.com/michaelvigor/hugo-theme-reading-list"
 tags = ["minimal", "clean", "neat", "black white", "blog"]
-features = ["blog"]
 min_version = 0.13
 
 [author]
-    name = "Zhe Zhang"
-    homepage = "http://zhezhang.co"
+    name = "Michael Vigor"
+    homepage = "https://michaelvigor.dev"
