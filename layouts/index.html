@@ -23,7 +23,7 @@
 		  {{ end }}
 		  {{ if .Site.Params.Summary }}
 		  	<div class="summary">
-          {{ .Params.hostname }} - {{ .Params.time_to_read }} min
+          {{ .Params.hostname }} - {{ .ReadingTime }} min
         </div>
 		  {{ else if .Site.Params.Content }}
 			<div class="content">
